@@ -67,7 +67,10 @@
         justify-self: center;
     }
 
-    .about__container,
+    .about__container {
+        grid-template-columns: 0.5fr 1fr;
+    }
+
     .portfolio__content,
     .project__container,
     .contact__container,
@@ -280,6 +283,10 @@
     .home__social {
         transform: translateX(-6rem);
         position: absolute;
+    }
+
+    .about__container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .services__container {
