@@ -51,7 +51,11 @@
 /* For medium devices */
 @media screen and (min-width: 568px) {
     .home__content {
-        grid-template-columns: max-content 1fr 1fr;
+        grid-template-columns: max-content 0.2fr 1fr;
+    }
+
+    .home__social {
+        display: flexbox;
     }
 
     .home__data {
@@ -225,7 +229,6 @@
     .project__container {
         background-color: var(--first-color-second);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 1rem;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
     }
@@ -264,6 +267,10 @@
     .main,
     .footer__container {
         padding: 0;
+    }
+
+    .home__content {
+        grid-template-columns: max-content 2fr;
     }
 
     .home__blob {
