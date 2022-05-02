@@ -4,7 +4,7 @@
 }
 
 .portfolio__content {
-    padding: 0 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .portfolio__img {
@@ -57,3 +57,4 @@
 .swiper-pagination-bullets {
     outline: none;
 }
+

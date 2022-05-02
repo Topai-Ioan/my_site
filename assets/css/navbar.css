@@ -51,8 +51,8 @@
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    color: var(--title-color);
     font-weight: var(--font-medium);
+    color: var(--title-color);
 }
 
 .nav__link:hover {
@@ -79,4 +79,9 @@
 /* show menu */
 .show-menu {
     bottom: 0;
+}
+
+/* Active link */
+.active-link {
+    color: var(--first-color);
 }
