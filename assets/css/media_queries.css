@@ -272,6 +272,10 @@
         padding: 0;
     }
 
+    .nav__btns {
+        padding-left: 3rem;
+    }
+
     .home__content {
         grid-template-columns: max-content 2fr;
     }
